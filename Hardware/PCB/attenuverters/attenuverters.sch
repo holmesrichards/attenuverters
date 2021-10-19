@@ -1827,7 +1827,7 @@ $EndComp
 Wire Wire Line
 	3750 4200 3750 5000
 $Comp
-L ao_symbols:+10V_P #PWR041
+L attenuverters:+10V_P #PWR041
 U 1 1 6197C7B9
 P 3850 4750
 F 0 "#PWR041" H 3850 4600 50  0001 C CNN
@@ -1839,17 +1839,6 @@ F 3 "" H 3850 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 4750 3850 4700
-$Comp
-L ao_symbols:+10V_P #PWR042
-U 1 1 6198418D
-P 5950 4100
-F 0 "#PWR042" H 5950 3950 50  0001 C CNN
-F 1 "+10V_P" H 5965 4273 50  0000 C CNN
-F 2 "" H 5950 4100 50  0001 C CNN
-F 3 "" H 5950 4100 50  0001 C CNN
-	1    5950 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 619BC6DC
@@ -2191,6 +2180,17 @@ F 2 "ao_tht:analogoutput_12mm" H 9800 5800 50  0001 C CNN
 F 3 "" H 9800 5800 50  0001 C CNN
 F 4 "DNF" H 9800 5800 50  0001 C CNN "Config"
 	1    9800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L attenuverters:+10V_P #PWR?
+U 1 1 616F61AE
+P 5950 4100
+F 0 "#PWR?" H 5950 3950 50  0001 C CNN
+F 1 "+10V_P" H 5965 4273 50  0000 C CNN
+F 2 "" H 5950 4100 50  0001 C CNN
+F 3 "" H 5950 4100 50  0001 C CNN
+	1    5950 4100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name attenuverters)(type Legacy)(uri ${KIPRJMOD}/attenuverters.lib)(options "")(descr ""))
 )
