@@ -14,7 +14,7 @@ Comment3 "Based loosely on Kassutronics Attenuverter/Mixer"
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Schottky D1
+L ao_symbols:1N5817 D1
 U 1 1 5F73FA24
 P 8100 1250
 F 0 "D1" H 8100 1034 50  0000 C CNN
@@ -27,7 +27,7 @@ F 5 "A-159" H 8100 1250 50  0001 C CNN "SKU"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP C1
+L ao_symbols:CP C1
 U 1 1 5F73FA30
 P 6550 2500
 F 0 "C1" H 6668 2546 50  0000 L CNN
@@ -203,7 +203,7 @@ $EndComp
 Connection ~ 7400 1650
 Connection ~ 7400 1250
 $Comp
-L Device:D_Schottky D2
+L ao_symbols:1N5817 D2
 U 1 1 6074E3B2
 P 8100 1650
 F 0 "D2" H 8100 1434 50  0000 C CNN
@@ -216,7 +216,7 @@ F 5 "A-159" H 8100 1650 50  0001 C CNN "SKU"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:CP C2
+L ao_symbols:CP C2
 U 1 1 6074E7B5
 P 6550 2800
 F 0 "C2" H 6668 2846 50  0000 L CNN
@@ -230,7 +230,7 @@ F 5 "A-4349" H 6550 2800 50  0001 C CNN "SKU"
 $EndComp
 Connection ~ 6550 2650
 $Comp
-L Device:C C4
+L ao_symbols:C C4
 U 1 1 6074ED42
 P 7200 2800
 F 0 "C4" H 7315 2846 50  0000 L CNN
@@ -774,7 +774,7 @@ L ao_symbols:R R20
 U 1 1 616852D5
 P 2850 1900
 F 0 "R20" V 2643 1900 50  0000 C CNN
-F 1 "100k" V 2734 1900 50  0000 C CNN
+F 1 "1k" V 2734 1900 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 1900 50  0001 C CNN
 F 3 "" H 2850 1900 50  0001 C CNN
 F 4 "Tayda" H 2850 1900 50  0001 C CNN "Vendor"
@@ -946,7 +946,7 @@ L ao_symbols:R R21
 U 1 1 61696604
 P 2850 3400
 F 0 "R21" V 2643 3400 50  0000 C CNN
-F 1 "100k" V 2734 3400 50  0000 C CNN
+F 1 "1k" V 2734 3400 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 3400 50  0001 C CNN
 F 3 "" H 2850 3400 50  0001 C CNN
 F 4 "Tayda" H 2850 3400 50  0001 C CNN "Vendor"
@@ -1105,7 +1105,7 @@ L ao_symbols:R R22
 U 1 1 6169CE1D
 P 2850 4900
 F 0 "R22" V 2643 4900 50  0000 C CNN
-F 1 "100k" V 2734 4900 50  0000 C CNN
+F 1 "1k" V 2734 4900 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 4900 50  0001 C CNN
 F 3 "" H 2850 4900 50  0001 C CNN
 F 4 "Tayda" H 2850 4900 50  0001 C CNN "Vendor"
@@ -1132,7 +1132,7 @@ L ao_symbols:R R1
 U 1 1 616A003F
 P 1950 6450
 F 0 "R1" V 1850 6350 50  0000 C CNN
-F 1 "10k" V 1850 6550 50  0000 C CNN
+F 1 "9.1k" V 1850 6550 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1880 6450 50  0001 C CNN
 F 3 "" H 1950 6450 50  0001 C CNN
 F 4 "Tayda" H 1950 6450 50  0001 C CNN "Vendor"
@@ -1324,7 +1324,7 @@ L ao_symbols:R R2
 U 1 1 616D5C5A
 P 1950 6650
 F 0 "R2" V 1850 6550 50  0000 C CNN
-F 1 "10k" V 1850 6750 50  0000 C CNN
+F 1 "9.1k" V 1850 6750 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1880 6650 50  0001 C CNN
 F 3 "" H 1950 6650 50  0001 C CNN
 F 4 "Tayda" H 1950 6650 50  0001 C CNN "Vendor"
@@ -1340,7 +1340,7 @@ L ao_symbols:R R3
 U 1 1 616D9D5B
 P 1950 6850
 F 0 "R3" V 1850 6750 50  0000 C CNN
-F 1 "10k" V 1850 6950 50  0000 C CNN
+F 1 "9.1k" V 1850 6950 50  0000 C CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1880 6850 50  0001 C CNN
 F 3 "" H 1950 6850 50  0001 C CNN
 F 4 "Tayda" H 1950 6850 50  0001 C CNN "Vendor"
@@ -1399,7 +1399,7 @@ Wire Wire Line
 	7200 2950 7800 2950
 Connection ~ 7200 2950
 $Comp
-L Device:C C7
+L ao_symbols:C C7
 U 1 1 61743108
 P 8200 2500
 F 0 "C7" H 8315 2546 50  0000 L CNN
@@ -1447,7 +1447,7 @@ F 3 "" H 8200 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C8
+L ao_symbols:C C8
 U 1 1 61743123
 P 8200 2800
 F 0 "C8" H 8315 2846 50  0000 L CNN
@@ -1564,7 +1564,7 @@ F 5 "A-037" H 10050 2650 50  0001 C CNN "SKU"
 $EndComp
 Connection ~ 9350 2650
 $Comp
-L Device:C C6
+L ao_symbols:C C6
 U 1 1 6174B8E9
 P 9350 2800
 F 0 "C6" H 9465 2846 50  0000 L CNN
@@ -1612,7 +1612,7 @@ F 3 "" H 9100 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L ao_symbols:C C5
 U 1 1 6174B8CE
 P 9350 2500
 F 0 "C5" H 9465 2546 50  0000 L CNN
@@ -2017,20 +2017,6 @@ F 3 "" H 6950 5700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 5700 6950 5600
-$Comp
-L ao_symbols:R R25
-U 1 1 61B95A69
-P 6200 4200
-F 0 "R25" V 5993 4200 50  0000 C CNN
-F 1 "100k" V 6084 4200 50  0000 C CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 4200 50  0001 C CNN
-F 3 "" H 6200 4200 50  0001 C CNN
-F 4 "Tayda" H 6200 4200 50  0001 C CNN "Vendor"
-	1    6200 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5950 4200 6050 4200
 Text GLabel 7200 6250 2    50   Output ~ 0
 NONINV3_P
 Wire Wire Line
@@ -2060,7 +2046,7 @@ NONINV2_P
 Text GLabel 5150 4200 3    50   Input ~ 0
 NONINV3_P
 $Comp
-L Device:C C3
+L ao_symbols:C C3
 U 1 1 5F73FA42
 P 7200 2500
 F 0 "C3" H 7315 2546 50  0000 L CNN
@@ -2124,19 +2110,17 @@ $Comp
 L ao_symbols:3_pin_Molex_header J12
 U 1 1 61CDDFFB
 P 6700 3950
-F 0 "J12" V 6664 3762 50  0000 R CNN
-F 1 "3_pin_Molex_header" V 6573 3762 50  0000 R CNN
+F 0 "J12" V 6750 4300 50  0000 R CNN
+F 1 "3_pin_Molex_header" V 6650 4900 50  0000 R CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6700 3950 50  0001 C CNN
 F 3 "" H 6700 3950 50  0001 C CNN
 F 4 "Tayda" H 6700 3950 50  0001 C CNN "Vendor"
 F 5 "A-805" H 6700 3950 50  0001 C CNN "SKU"
 	1    6700 3950
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	6600 4200 6600 4150
-Wire Wire Line
-	6350 4200 6600 4200
 Wire Wire Line
 	6700 4150 6700 4300
 Wire Wire Line
@@ -2193,4 +2177,6 @@ F 3 "" H 5950 4100 50  0001 C CNN
 	1    5950 4100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 4200 6600 4200
 $EndSCHEMATC
