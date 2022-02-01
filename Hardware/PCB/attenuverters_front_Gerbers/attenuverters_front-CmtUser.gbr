@@ -1,0 +1,29 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.1-79c1e3a40b~116~ubuntu20.04.1*
+G04 #@! TF.CreationDate,2022-01-29T19:42:52-05:00*
+G04 #@! TF.ProjectId,attenuverters_front,61747465-6e75-4766-9572-746572735f66,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Other,Comment*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 6.0.1-79c1e3a40b~116~ubuntu20.04.1) date 2022-01-29 19:42:52*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.150000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,H2*
+X167199999Y-42499997D02*
+G75*
+G03*
+X167199999Y-42499997I-3200000J0D01*
+G01*
+G04 #@! TO.C,H3*
+X141199999Y-103499997D02*
+G75*
+G03*
+X141199999Y-103499997I-3200000J0D01*
+G01*
+G04 #@! TD*
+M02*
