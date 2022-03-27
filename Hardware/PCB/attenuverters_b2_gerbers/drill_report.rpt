@@ -1,0 +1,27 @@
+Drill report for attenuverters_b2.kicad_pcb
+Created on Sat Mar 12 17:00:33 2022
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'attenuverters_b2.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.700mm  0.0276"  (1 hole)
+    T2  1.000mm  0.0394"  (16 holes)
+    T3  1.200mm  0.0472"  (3 holes)
+    T4  1.750mm  0.0689"  (9 holes)
+    T5  2.700mm  0.1063"  (40 holes)
+
+    Total plated holes count 69
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T6  3.200mm  0.1260"  (2 holes)
+
+    Total unplated holes count 2
