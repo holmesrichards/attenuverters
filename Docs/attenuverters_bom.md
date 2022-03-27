@@ -13,11 +13,11 @@ Generated from schematic by Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1
 | D1, D2 | 2 | 1N5817 | Schottky Barrier Rectifier Diode, DO-41 | Tayda | A-159 |
 | J1 | 1 | Conn_01x16 | 1x16 pin header, 2.54 mm |  |  |
 | J2 | 1 | Conn_01x16 | 1x16 pin socket, 2.54 mm |  |  |
-| J3, J4, J5, J12, J13 | 5 | AudioJack2 | Audio Jack, 2 Poles (Mono / TS) | Tayda | A-1121 |
+| J3, J4, J5, J12, J13 | 5 | AudioJack2 | 1/4" Audio Jack, 2 Poles (Mono / TS) | Tayda | A-1121 |
 | J6 | 1 | 3_pin_Molex_header | KK254 Molex header | Tayda | A-805 |
 | J7 | 1 | Synth_power_2x5 | Shrouded header 2x5 | Tayda | A-2939 |
 | J8 | 1 | 3_pin_Molex_connector | KK254 Molex connector | Tayda | A-827 |
-| J9, J10, J11 | 3 | AudioJack2_SwitchT | Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling) | Tayda | A-1121 |
+| J9, J10, J11 | 3 | AudioJack2_SwitchT | 1/4" Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling) | Tayda | A-1121 |
 | R1, R2, R3, R4, R5, R6 | 6 | 47k | Resistor | Tayda |  |
 | R7, R8, R9, R13, R14, R15 | 6 | 100k | Resistor | Tayda |  |
 | R10, R11, R12 | 3 | 9.1k | Resistor | Tayda |  |
